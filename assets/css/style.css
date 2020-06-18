@@ -1403,6 +1403,7 @@ section {
 }
 #hd2
 {
+  position: relative;
   color: #2f2f2f;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
