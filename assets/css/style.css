@@ -1,9 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
+body 
+{
   font-family: "Open Sans", sans-serif;
-  color: #11161b;
 }
 
 a {
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #main 
 {
   margin-top: 72px;
-  background-color: black;
+  background-color: rgba(211, 212, 154, 0.2);
 }
 
 /*--------------------------------------------------------------
@@ -1371,8 +1371,16 @@ section {
 }
 .card
 {
-  background-color:rgb(255, 251, 251);
+  background-color:rgba(214, 169, 161, 0.103);
   border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  border: 1px solid #2f2f2f;
 }
 .card-body
 {
@@ -1390,122 +1398,30 @@ section {
 }
 .card-text
 {
-  color: rgb(46, 44, 44);
+  color:#0400d4;
+  font-weight: bold;
 }
 #hd2
 {
-  color: whitesmoke;
+  color: #2f2f2f;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
-  font-size: 60px;
-  padding-top: 330px;
-  margin-top: 20px;
+  font-size: 50px;
+  padding-top: 50px;
 }
-.neon
-{
-  color: #fff;
-  text-shadow: 0 0 20px #18d26e;
-}
-.neon:after
-{
-  padding: 0 20px;
-  z-index: -1;
-  color: #18d26e;
-  filter: blur(20px);
-}
-.neon:before
-{
-  background-color: #1bbca3;
-  z-index: -2;
-  opacity: 0.5;
-  filter: blur(40px)
-}
+
 #p1
 {
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 25px;
   margin-top: 15px;
-  padding-top: 90px;
+  padding-top: 10px;
 }
 #img1
 {
   height: 380px;
   width: 350px;
-  padding-top: 80px ;
-
-}
-/*Glowing of the title*/
-h2
-{
-  color: whitesmoke;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 40px;
-  padding-top: 330px;
-  margin-top: 20px;
-}
-h2 span
-{
-  display: inline;
-  margin: 0;
-  padding: 0;
-  animation: animate 3s linear infinite;
-}
-h2 span:nth-child(1)
-{
-  animation-delay: 0s;
-}
-h2 span:nth-child(2)
-{
-  animation-delay: 0.25s;
-}
-h2 span:nth-child(3)
-{
-  animation-delay: 0.5s;
-}
-h2 span:nth-child(4)
-{
-  animation-delay: 0.75s;
-} 
-h2 span:nth-child(5)
-{
-  animation-delay: 1s;
-}
-h2 span:nth-child(6)
-{
-  animation-delay: 1.25s;
-}
-h2 span:nth-child(7)
-{
-  animation-delay: 1.5s;
-}
-h2 span:nth-child(8)
-{
-  animation-delay: 1.75s;
-}
-h2 span:nth-child(9)
-{
-  animation-delay: 2s;
-}
-h2 span:nth-child(10)
-{
-  animation-delay: 2.25s;
-}
-@keyframes animate
-{
-    0%, 100%
-      {
-        color: white;
-        filter: blur(2px);
-        text-shadow: 0 0 10px #00b3ff,0 0 20px #00b3ff,0 0 40px #00b3ff,0 0 80px #00b3ff,0 0 120px #00b3ff,0 0 200px #00b3ff,0 0 300px #00b3ff,0 0 400px #00b3ff,0 0 500px #00b3ff,0 0 600px #00b3ff,
-      }
-    5%, 95%
-      {
-        color:red;
-        filter: blur(0px);
-        text-shadow: rgb(151, 151, 223);
-      }
+  padding-top: 5px;
 }
